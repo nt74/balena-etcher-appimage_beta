@@ -1,20 +1,18 @@
-pkgbase = wg++
-	pkgdesc = WebGrab+Plus is a multi-site incremental xmltv epg grabber.
-	pkgver = 5.0.1.1
+pkgbase = balena-etcher-appimage
+	pkgdesc = Flash OS images to SD cards & USB drives, safely and easily
+	pkgver = 1.15.5
 	pkgrel = 1
-	url = http://webgrabplus.com/
-	arch = any
-	license = custom
-	makedepends = git
-	makedepends = unzip
-	depends = dotnet-runtime-6.0-bin
-	provides = wg++
-	conflicts = wg++
-	source = http://www.webgrabplus.com/sites/default/files/download/SW/V4.2.2/WebGrabPlus_V4.2_install.tar.gz
-	source = git+https://github.com/SilentButeo2/webgrabplus-siteinipack.git
-	source = wg++.sh
-	md5sums = 569b438673a4e1963c52f62c26bbcf16
-	md5sums = SKIP
-	md5sums = b9fc49688d55da5cf447b7a7b9a45361
+	url = https://www.balena.io/etcher
+	arch = x86_64
+	license = Apache
+	depends = fuse2
+	provides = balena-etcher-appimage=1.15.5
+	conflicts = balena-etcher-appimage
+	conflicts = balena-etcher
+	options = !strip
+	source = https://github.com/balena-io/etcher/releases/download/tags%2Fv1.15.5/balenaEtcher-1.15.5-x64.AppImage
+	source = balena-etcher.sh
+	sha256sums = 88032d475d22eb72a790d8e9105f3c199721da23e408825494283d91c26cc217
+	sha256sums = ff83e497ce3e030d6181ed07e4c25bed90a9c5a959e66b2613ba7ec1f7537cd8
 
-pkgname = wg++
+pkgname = balena-etcher-appimage
