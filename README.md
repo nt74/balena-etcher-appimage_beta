@@ -1,5 +1,5 @@
 # balena-etcher-appimage_beta
-Beta testing (Pre-Release) of balena-etcher-appimage for Linux
+Beta testing (Pre-Release) of balena-etcher-appimage for Linux.
 Latest version https://github.com/balena-io/etcher
 
 Arch Linux AUR package using AppImage installer.
