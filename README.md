@@ -9,5 +9,5 @@ Arch Linux AUR package using AppImage installer.
 git clone https://github.com/nt74/balena-etcher-appimage_beta.git
 cd balena-etcher-appimage_beta/
 makepkg -s
-sudo pacman -U balena-etcher-appimage-1.18.1-2-x86_64.pkg.tar.zst
+sudo pacman -U balena-etcher-appimage-${pkgver}-${pkgrel}-x86_64.pkg.tar.zst
 ```
