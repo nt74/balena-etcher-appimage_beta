@@ -1,7 +1,7 @@
 # Maintainer: Nikos Toutountzoglou <nikos.toutou@gmail.com>
 pkgname=balena-etcher-appimage
-pkgver=1.18.3
-pkgrel=2
+pkgver=1.18.4
+pkgrel=1
 pkgdesc="Flash OS images to SD cards & USB drives, safely and easily"
 arch=('x86_64')
 url="https://www.balena.io/etcher"
@@ -10,7 +10,7 @@ depends=('fuse2')
 provides=("balena-etcher-appimage=${pkgver}")
 conflicts=('balena-etcher-appimage' 'balena-etcher')
 source=("https://github.com/balena-io/etcher/releases/download/v${pkgver}/balenaEtcher-${pkgver}-x64.AppImage")
-sha256sums=('a16b8f3e1ccb247fcb269f308a9f9b6077f21e68665622ec52377e230fc6ca0a')
+sha256sums=('94022b35d6935a133508d4e27674d26ae0a20a0fcee2deaae0aea765e6ff46de')
 options=(!strip) # necessary otherwise the AppImage file in the package is truncated
 _image="$(basename "${source[0]}")"
 
